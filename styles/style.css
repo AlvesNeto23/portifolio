@@ -7,11 +7,11 @@
 }
 :root{
 
-    --cor-primaria: #212A3E;
-    --cor-secundaria: #9BA4B5;
-    --cor-terciaria: #276af0;
-    --cor-hover: #F1F6F9;
-    --cor-borda: #05BFDB;
+    --cor-primaria: #161513;
+    --cor-secundaria: #d8f3dc;
+    --cor-terciaria: #52b788;
+    --cor-hover: #3a5a40;
+    --cor-borda: #cad2c5;
 
     --font-titulo: 'Krona One', sans-serif; ;
     --font-paragrafos: 'Montserrat', sans-serif;
@@ -190,7 +190,7 @@ display: flex;
 }
 
 @media (max-width: 720px){
- .cabecalho{
+    .cabecalho{
         padding: 10%;
     }
    
@@ -209,4 +209,28 @@ display: flex;
     .apresentacao__curriculo{
         width: auto;
     }
+
+
+}
+
+@media (max-width: 520px){
+    .cabecalho{
+        padding: 5%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+        font-size: 1rem;
+     }
+    .apresentacao{
+         flex-direction: column-reverse;  
+         padding: 5% 5%; 
+     }
+    .apresentacao__conteudo{
+        width: auto;
+    } 
+    .apresentacao__curriculo{
+        width: auto;
+    }
+
+
 }
