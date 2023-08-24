@@ -190,5 +190,23 @@ display: flex;
 }
 
 @media (max-width: 720px){
-
+ .cabecalho{
+        padding: 10%;
+    }
+   
+    .cabecalho__menu{
+        justify-content: center;
+        gap: 23px;
+    
+     }
+    .apresentacao{
+         flex-direction: column-reverse;  
+         padding: 5% 5%; 
+     }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+    .apresentacao__curriculo{
+        width: auto;
+    }
 }
